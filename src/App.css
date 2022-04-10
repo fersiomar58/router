@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  /* background-color: black; */
+  width: 100%;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background-color: black;
+  color: wheat;
+}
+
+
+.list{
+  display: flex ;
+}
+
+.items{
+  margin-right: 20px;
+  margin-right: 50px;
+
+}
+
+li{
+  font-size: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (min-width:750px){
+  form {
+    width: calc(100vw / 3);
+  }
+}
+
+.fade-out {
+  animation: fadeOut ease 2s;
+}
+
+@keyframes fadOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.window{
+display: flex;
+justify-content: center;
+width: 10px;
+}
+
+.Navbaree{
+  background-color: darkred;
+
+}
+.h1{
+  margin-bottom: 200px;
+
+}
