@@ -2,7 +2,8 @@
   text-align: center;
   /* background-color: black; */
   width: 100%;
-
+  background-image: url(https://wallpaperbat.com/img/501762-simple-dark-google-colors-rubber-bands-desktop-wallpaper.jpg);
+height: 780px;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@ ul{
   display: flex;
   list-style: none;
   justify-content: space-between;
-  background-color: black;
+  /* background-color: black; */
   color: wheat;
 }
 
@@ -88,14 +89,34 @@ li{
 .window{
 display: flex;
 justify-content: center;
-width: 10px;
+width: 20%;
+margin-left: 650px;
+height: 450px;
+margin-top: 50px;
+
+
 }
 
-.Navbaree{
-  background-color: darkred;
+
+.item{
+ 
+color: black;
+margin-right: 80px;
+margin-top: 100px;
+margin-left: -230px;
+display: flex;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 
 }
-.h1{
-  margin-bottom: 200px;
+
+
+.name{
+  color: black;
+margin-right: 200px;
+margin-top: 230px;
+margin-left: -1px;
+display: flex;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }

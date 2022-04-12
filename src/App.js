@@ -14,7 +14,6 @@ import { Info } from './components/Info';
 
 
 function App() {
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   const [list, setList] = useState(moviesData)
   return (
     <div className="App">
